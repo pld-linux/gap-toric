@@ -1,7 +1,7 @@
 Summary:	toric varieties and some combinatorial geometry computations
 Name:		gap-toric
 Version:	1.6
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Applications/Math
 Source0:	http://www.opensourcemath.org/toric/toric%{version}.tar.gz
