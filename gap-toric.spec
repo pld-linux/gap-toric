@@ -23,10 +23,10 @@ about them can be calculated.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/gap/toric/lib
+install -d $RPM_BUILD_ROOT%{_datadir}/gap/pkg/toric
 
-install -p *.g $RPM_BUILD_ROOT%{_datadir}/gap/toric
-install -p lib/* $RPM_BUILD_ROOT%{_datadir}/gap/toric/lib
+install -p *.g $RPM_BUILD_ROOT%{_datadir}/gap/pkg/toric
+cp -a lib html doc $RPM_BUILD_ROOT%{_datadir}/gap/pkg/toric
 
 %clean
 rm -rf $RPM_BUILD_ROOT
